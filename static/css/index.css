@@ -136,12 +136,17 @@ body > .hero:first-of-type .hero-body {
   gap: 0.75rem;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: -0.25rem;
+}
+
+.publication-links-wrapper {
+  padding: 0 !important;
 }
 
 .link-logo {
-  height: 6.4em;
+  height: 9em;
   width: auto;
-  margin: -3em 0.5rem -3em 0;
+  margin: -4.5em 0.75rem -4.5em 0;
   vertical-align: middle;
   box-shadow: none !important;
   border: none !important;
