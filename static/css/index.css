@@ -198,10 +198,14 @@ body > .hero:first-of-type .hero-body {
   transition: width 0.4s ease;
 }
 
-/* Extend the accent line when the figure/video under the title is hovered */
+/* Extend the accent line to the full title width when hovering any figure/video below */
 .column:has(.figure-block:hover) .section-title::after,
 .column:has(video:hover) .section-title::after {
-  width: 180px;
+  width: 100%;
+}
+
+.figure-spacer {
+  margin-top: 1.75rem;
 }
 
 .section-icon {
