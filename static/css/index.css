@@ -195,6 +195,13 @@ body > .hero:first-of-type .hero-body {
   height: 3px;
   background: linear-gradient(90deg, var(--accent), var(--accent-dark));
   border-radius: 2px;
+  transition: width 0.4s ease;
+}
+
+/* Extend the accent line when the figure/video under the title is hovered */
+.column:has(.figure-block:hover) .section-title::after,
+.column:has(video:hover) .section-title::after {
+  width: 180px;
 }
 
 .section-icon {
