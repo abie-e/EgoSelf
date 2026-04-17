@@ -141,6 +141,14 @@ body > .hero:first-of-type .hero-body {
 .affiliation-logos img {
   height: 80px;
   width: auto;
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+.affiliation-logos img:hover {
+  box-shadow: none !important;
+  transform: none !important;
 }
 
 .inline-logo:hover {
