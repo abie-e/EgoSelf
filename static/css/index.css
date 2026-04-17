@@ -130,12 +130,16 @@ body > .hero:first-of-type .hero-body {
   font-style: italic;
 }
 
+.author-with-logo {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
 .inline-logo {
-  height: 3.5em;
+  height: 2.6em;
   width: auto;
-  vertical-align: middle;
   margin-right: 0.5em;
-  display: inline-block;
   box-shadow: none !important;
   border: none !important;
   border-radius: 0 !important;
