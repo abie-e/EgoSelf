@@ -41,6 +41,13 @@ body {
 
 /* ===== Hero / Title ===== */
 
+body > .hero:first-of-type {
+  background: linear-gradient(180deg, #f7f9fc 0%, #ffffff 100%);
+  border-bottom: 1px solid var(--border-soft);
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
 .hero {
   padding-top: 1.5rem;
 }
@@ -64,6 +71,14 @@ body {
   margin-bottom: 1.75rem !important;
   color: var(--text-dark);
   line-height: 1.2;
+}
+
+.publication-title .brand {
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
 }
 
 .publication-authors {
@@ -158,11 +173,18 @@ body {
 .hero-body img,
 .hero-body video {
   border-radius: 10px;
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.10);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
   border: 1px solid var(--border-soft);
   display: block;
   margin: 0 auto;
   max-width: 100%;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.hero-body img:hover,
+.hero-body video:hover {
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.14);
+  transform: translateY(-2px);
 }
 
 
