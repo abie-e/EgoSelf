@@ -130,6 +130,25 @@ body > .hero:first-of-type .hero-body {
   font-style: italic;
 }
 
+.affiliation-logos {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.affiliation-logos img {
+  height: 48px;
+  width: auto;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.affiliation-logos img:hover {
+  opacity: 1;
+}
+
 
 /* ===== Buttons ===== */
 
