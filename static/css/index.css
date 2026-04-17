@@ -81,6 +81,13 @@ body > .hero:first-of-type {
   font-weight: 700;
 }
 
+.title-emoji {
+  margin-right: 0.5rem;
+  font-size: 0.9em;
+  vertical-align: 0.05em;
+  -webkit-text-fill-color: initial;
+}
+
 .publication-authors {
   font-family: 'Google Sans', sans-serif;
   margin-bottom: 0.75rem;
