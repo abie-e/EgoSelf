@@ -136,8 +136,8 @@ body > .hero:first-of-type .hero-body {
   gap: 0.75rem;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 0.25rem;
-  margin-bottom: -3rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
 
 .publication-links-wrapper {
@@ -327,6 +327,10 @@ body > .hero:first-of-type .hero-body {
 
 
 /* ===== TL;DR section ===== */
+
+.tldr-section {
+  margin-top: -2.5rem;
+}
 
 .tldr-section .hero-body {
   padding-top: 0;
