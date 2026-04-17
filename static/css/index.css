@@ -45,7 +45,11 @@ body {
 body > .hero:first-of-type {
   background: linear-gradient(180deg, #f1ecdf 0%, #fbf9f4 100%);
   padding-top: 2rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0;
+}
+
+body > .hero:first-of-type .hero-body {
+  padding-bottom: 0.5rem;
 }
 
 .hero {
@@ -198,7 +202,7 @@ body > .hero:first-of-type {
 /* ===== TL;DR section ===== */
 
 .tldr-section .hero-body {
-  padding-top: 2rem;
+  padding-top: 0.5rem;
   padding-bottom: 2rem;
 }
 
