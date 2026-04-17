@@ -143,11 +143,23 @@ body > .hero:first-of-type .hero-body {
   padding: 0 !important;
 }
 
-.link-logo {
-  height: 9em;
-  width: auto;
-  margin: -4.5em 0.75rem -4.5em 0;
+.link-logo-slot {
+  position: relative;
+  display: inline-block;
+  width: 4em;
+  height: 2.5em;
   vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+.link-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 8em;
+  width: auto;
+  pointer-events: none;
   box-shadow: none !important;
   border: none !important;
   border-radius: 0 !important;
@@ -155,7 +167,7 @@ body > .hero:first-of-type .hero-body {
 
 .link-logo:hover {
   box-shadow: none !important;
-  transform: none !important;
+  transform: translate(-50%, -50%) !important;
 }
 
 .inline-logo:hover {
