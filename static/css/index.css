@@ -11,6 +11,7 @@ body {
   font-family: 'Noto Sans', sans-serif;
   line-height: 1.65;
   color: #333;
+  background-color: #fbfcfd;
 }
 
 
@@ -42,7 +43,7 @@ body {
 /* ===== Hero / Title ===== */
 
 body > .hero:first-of-type {
-  background: linear-gradient(180deg, #f7f9fc 0%, #ffffff 100%);
+  background: linear-gradient(180deg, #e8eef6 0%, #fbfcfd 100%);
   border-bottom: 1px solid var(--border-soft);
   padding-top: 2rem;
   padding-bottom: 1rem;
@@ -224,7 +225,7 @@ body > .hero:first-of-type {
 /* ===== Abstract ===== */
 
 .section.hero.is-light {
-  background-color: #fafbfc;
+  background-color: #f1f4f9;
   border-top: 1px solid var(--border-soft);
   border-bottom: 1px solid var(--border-soft);
 }
@@ -302,7 +303,7 @@ body > .hero:first-of-type {
 /* ===== Footer ===== */
 
 .footer {
-  background-color: #fafbfc;
+  background-color: #eef2f7;
   border-top: 1px solid var(--border-soft);
   padding: 2rem 1.5rem;
 }
