@@ -201,10 +201,10 @@ body > .hero:first-of-type .hero-body {
 /* Extend the accent line (centered under title) when hovering figure/video below */
 .column:has(.figure-block:hover) .section-title::after,
 .column:has(video:hover) .section-title::after {
-  width: 220px;
+  width: 120px;
 }
 
-.figure-spacer {
+.figure-block.figure-spacer {
   margin-top: 4.5rem;
 }
 
