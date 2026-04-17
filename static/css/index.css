@@ -136,7 +136,7 @@ body > .hero:first-of-type .hero-body {
   gap: 0.75rem;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: -0.25rem;
+  margin-top: 1.5rem;
 }
 
 .publication-links-wrapper {
@@ -157,7 +157,7 @@ body > .hero:first-of-type .hero-body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  height: 8em;
+  height: 11em;
   width: auto;
   pointer-events: none;
   box-shadow: none !important;
