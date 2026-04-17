@@ -131,10 +131,10 @@ body > .hero:first-of-type .hero-body {
 }
 
 .inline-logo {
-  height: 2.4em;
+  height: 3.5em;
   width: auto;
-  vertical-align: -0.8em;
-  margin-right: 0.4em;
+  vertical-align: middle;
+  margin-right: 0.5em;
   display: inline-block;
   box-shadow: none !important;
   border: none !important;
