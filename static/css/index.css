@@ -95,13 +95,6 @@ body > .hero:first-of-type .hero-body {
 .publication-authors {
   font-family: 'Google Sans', sans-serif;
   margin-bottom: 0.75rem;
-  white-space: nowrap;
-}
-
-@media (max-width: 900px) {
-  .publication-authors {
-    white-space: normal;
-  }
 }
 
 .publication-venue {
@@ -137,16 +130,11 @@ body > .hero:first-of-type .hero-body {
   font-style: italic;
 }
 
-.author-with-logo {
-  display: inline-flex;
-  align-items: center;
-  white-space: nowrap;
-}
-
-.inline-logo {
-  height: 3em;
+.lead-logo {
+  height: 5.5em;
   width: auto;
-  margin-right: 0.45em;
+  vertical-align: middle;
+  margin-right: 0.8em;
   box-shadow: none !important;
   border: none !important;
   border-radius: 0 !important;
