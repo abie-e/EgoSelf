@@ -139,7 +139,7 @@ body > .hero:first-of-type .hero-body {
 }
 
 .affiliation-logos img {
-  height: 120px;
+  height: 160px;
   width: auto;
   box-shadow: none !important;
   border: none !important;
@@ -206,6 +206,35 @@ body > .hero:first-of-type .hero-body {
 
 .figure-block.figure-spacer {
   margin-top: 4.5rem;
+}
+
+/* Variant: border/shadow only on the image, caption sits outside the frame */
+.figure-block.caption-outside {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  overflow: visible;
+}
+
+.figure-block.caption-outside:hover {
+  box-shadow: none;
+  transform: none;
+}
+
+.figure-block.caption-outside img {
+  border-radius: 10px;
+  border: 1px solid var(--border-soft);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.figure-block.caption-outside:hover img {
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.14);
+  transform: translateY(-2px);
+}
+
+.figure-block.caption-outside .figure-caption {
+  padding: 0.9rem 0.5rem 0;
 }
 
 .section-icon {
