@@ -136,7 +136,7 @@ body > .hero:first-of-type .hero-body {
   gap: 0.75rem;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 3.5rem;
+  margin-top: 1.5rem;
 }
 
 .publication-links-wrapper {
@@ -146,7 +146,7 @@ body > .hero:first-of-type .hero-body {
 .link-logo-slot {
   position: relative;
   display: inline-block;
-  width: 7.5em;
+  width: 4em;
   height: 2.5em;
   vertical-align: middle;
   margin-right: 0.5rem;
@@ -157,7 +157,7 @@ body > .hero:first-of-type .hero-body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  height: 20.6em;
+  height: 9em;
   width: auto;
   pointer-events: none;
   box-shadow: none !important;
