@@ -95,6 +95,13 @@ body > .hero:first-of-type .hero-body {
 .publication-authors {
   font-family: 'Google Sans', sans-serif;
   margin-bottom: 0.75rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+  .publication-authors {
+    white-space: normal;
+  }
 }
 
 .publication-venue {
@@ -137,9 +144,9 @@ body > .hero:first-of-type .hero-body {
 }
 
 .inline-logo {
-  height: 2em;
+  height: 3em;
   width: auto;
-  margin-right: 0.4em;
+  margin-right: 0.45em;
   box-shadow: none !important;
   border: none !important;
   border-radius: 0 !important;
