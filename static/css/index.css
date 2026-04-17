@@ -131,10 +131,10 @@ body > .hero:first-of-type .hero-body {
 }
 
 .lead-logo {
-  height: 5.5em;
+  height: 11em;
   width: auto;
   vertical-align: middle;
-  margin-right: 0.8em;
+  margin-right: 1em;
   box-shadow: none !important;
   border: none !important;
   border-radius: 0 !important;
