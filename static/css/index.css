@@ -130,14 +130,17 @@ body > .hero:first-of-type .hero-body {
   font-style: italic;
 }
 
-.lead-logo {
-  height: 7em;
+.affiliation-logos {
+  margin-top: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.affiliation-logos img {
+  height: 80px;
   width: auto;
-  vertical-align: middle;
-  margin-right: 1em;
-  box-shadow: none !important;
-  border: none !important;
-  border-radius: 0 !important;
 }
 
 .inline-logo:hover {
@@ -194,15 +197,35 @@ body > .hero:first-of-type .hero-body {
 }
 
 
-/* ===== Figure caption ===== */
+/* ===== Figure cards (image + caption inside same frame) ===== */
 
 .figure-block {
   margin: 0;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--border-soft);
+  overflow: hidden;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.figure-block:hover {
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.14);
+  transform: translateY(-2px);
+}
+
+.figure-block img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .figure-caption {
-  margin-top: 1rem;
-  padding: 0 0.5rem;
+  padding: 1rem 1.25rem 1.1rem;
   font-size: 0.92rem;
   line-height: 1.6;
   color: #555;
@@ -215,10 +238,10 @@ body > .hero:first-of-type .hero-body {
 }
 
 
-/* ===== Images and videos: card-like ===== */
+/* ===== Plain images/videos (no caption): still card-like ===== */
 
-.hero-body img,
-.hero-body video {
+.hero-body > .container img:not(.figure-block img),
+.hero-body > .container video {
   border-radius: 10px;
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
   border: 1px solid var(--border-soft);
@@ -228,8 +251,8 @@ body > .hero:first-of-type .hero-body {
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-.hero-body img:hover,
-.hero-body video:hover {
+.hero-body > .container img:not(.figure-block img):hover,
+.hero-body > .container video:hover {
   box-shadow: 0 10px 32px rgba(0, 0, 0, 0.14);
   transform: translateY(-2px);
 }
