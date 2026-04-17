@@ -131,8 +131,8 @@ body > .hero:first-of-type .hero-body {
 }
 
 .affiliation-logos {
-  margin-top: -0.5rem;
-  margin-bottom: -1.5rem;
+  margin-top: -1.5rem;
+  margin-bottom: -3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,7 +142,7 @@ body > .hero:first-of-type .hero-body {
 .affiliation-logos img {
   height: 160px;
   width: auto;
-  margin: -1.5rem 0;
+  margin: -3rem 0;
   box-shadow: none !important;
   border: none !important;
   border-radius: 0 !important;
