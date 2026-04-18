@@ -85,13 +85,16 @@ body > .hero:first-of-type .hero-body {
   font-weight: 700;
 }
 
-.title-emoji {
-  margin-right: 0.5rem;
-  font-size: 0.9em;
+.title-icon {
+  margin-right: 0.55rem;
+  font-size: 0.85em;
   vertical-align: 0.05em;
   display: inline-block;
-  filter: brightness(0) saturate(100%) invert(58%) sepia(67%) saturate(415%) hue-rotate(178deg) brightness(0.92) contrast(0.92);
-  -webkit-text-fill-color: initial;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 .publication-authors {
