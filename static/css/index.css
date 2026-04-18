@@ -90,7 +90,7 @@ body > .hero:first-of-type .hero-body {
   font-size: 0.9em;
   vertical-align: 0.05em;
   display: inline-block;
-  filter: invert(28%) sepia(35%) saturate(900%) hue-rotate(185deg) brightness(0.95);
+  filter: brightness(0) saturate(100%) invert(58%) sepia(67%) saturate(415%) hue-rotate(178deg) brightness(0.92) contrast(0.92);
   -webkit-text-fill-color: initial;
 }
 
