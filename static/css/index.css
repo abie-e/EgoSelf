@@ -90,6 +90,9 @@ body > .hero:first-of-type .hero-body {
   font-size: 0.85em;
   vertical-align: 0.05em;
   display: inline-block;
+}
+
+.title-icon::before {
   background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
   -webkit-background-clip: text;
   background-clip: text;
